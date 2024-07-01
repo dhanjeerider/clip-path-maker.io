@@ -1,0 +1,113 @@
+
+		<title>Clippy — CSS clip-path maker</title>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,300i,400,400i" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="https://bennettfeely.com/clippy/style.min.css" />
+			<div class="demo-container fade-content">
+				<section class="demo">
+					<div id="box" class="box">
+						<div class="shadowboard"></div>
+						<div class="clipboard"></div>
+						<div class="handles"></div>
+					</div>
+					<div class="custom-notice">
+						<div>
+							<span class="touchy"></span> to add points<br>to
+							custom polygon.
+						</div>
+					</div>
+				</section>
+			</div>
+			<section class="dark-panel custom">
+				<h2>Custom shape</h2>
+				<button class="finish"></button>
+			</section>
+			<section class="dark-panel inset">
+				<div class="flex">
+					<h2>Round edges</h2>
+					<input value="5% 20% 0 10%" class="inset-round" type="text" />
+				</div>
+				<p>
+					The <code>inset()</code> shape optionally allows values
+					similar to <code>border-radius</code> for rounded edges.
+					This new feature may be buggy in
+					<span class="your-browser">your browser</span>.
+				</p>
+			</section>
+			<section id="flickity" class="shapes horizontal gallery">
+				<ul></ul>
+			</section>
+			<section class="clip-path" tabindex="-1">
+				<div class="css-code code fade-content">
+					<!--
+					<code class="webkit block"
+						>-webkit-clip-path:
+						<span class="functions"></span>;</code
+					>
+					-->
+					<code class="unprefixed block show">clip-path: <span class="functions"></span>;</code>
+				</div>
+				<!-- <button class="edit-in-codepen code"></button> -->
+			</section>
+		</div>
+		<div class="side">
+			
+			<section class="dark-panel inset">
+				<div class="flex">
+					<h2>Round edges</h2>
+					<input value="5% 20% 0 10%" class="inset-round" type="text" />
+				</div>
+				<p>
+					The <code>inset()</code> shape optionally allows values
+					similar to <code>border-radius</code> for rounded edges.
+					This new feature may be buggy in
+					<span class="your-browser">your browser</span>.
+				</p>
+			</section>
+			<section class="dark-panel custom">
+				<h2>Custom shape</h2>
+				<button class="finish"></button>
+			</section>
+			<section class="shapes vertical" tabindex="-1">
+				<ul></ul>
+			</section>
+			<section class="options">
+			
+			
+				<div class="grid panel flex fade-content">
+					<h2>Demo Size</h2>
+					<input id="demo_width" value="280" type="number" />
+					<h2>&times;</h2>
+					<input id="demo_height" value="280" type="number" />
+				</div>
+				<div class="grid panel fade-content">
+					<h2>Demo Background</h2>
+					<div class="backgrounds">
+						<img src="https://bennettfeely.com/clippy/pics/pittsburgh.jpg" />
+						<img src="https://bennettfeely.com/clippy/pics/sparkler.jpg" />
+						<img src="https://bennettfeely.com/clippy/pics/fierenze.jpg" />
+						<img src="https://bennettfeely.com/clippy/pics/miami.jpg" />
+					</div>
+					<input placeholder="Custom URL..." id="custom_url" type="url" name="background" />
+					<style id="custom_background"></style>
+					<div class="flex shadowboard-toggle">
+						<h2>Show outside clip-path</h2>
+						<input name="prefix" type="checkbox" id="shadowboard-toggle" />
+						<label class="joined" for="shadowboard-toggle"></label>
+					</div>
+				</div>
+				<div class="grid panel fade-content">
+					<h2>About Clip Paths</h2>
+					<p>The <code>clip-path</code> property allows you to make complex shapes in CSS by clipping an element to a basic shape (circle, ellipse, polygon, or inset), or to an SVG source.</p>
+					<p>CSS Animations and transitions are possible with two or more clip-path shapes with the same number of points.</p>
+				</div>
+							
+			</section>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://bennettfeely.com/clippy/draggabilly.min.js"></script>
+		<script src="https://bennettfeely.com/clippy/dev/flickity.pkgd.min.js"></script>
+		<script src="https://bennettfeely.com/clippy/dev/clip.js"></script>
+		<script src="https://bennettfeely.com/clippy/clip.min.js"></script>
+	<!-- GA --><script async 
+	
+</html>
